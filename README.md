@@ -26,7 +26,9 @@ Suivez ces étapes pour configurer le projet sur votre machine locale.
 git clone https://github.com/votre-utilisateur/drawing-app.git
 cd drawing-app
 ```
+## 📖 Aperçu du projet
 
+```
 /drawing-app
 ├── /src
 │   ├── /app
@@ -41,9 +43,9 @@ cd drawing-app
 ├── angular.json                        # Configuration du projet Angular
 ├── package.json                        # Dépendances et scripts du projet
 └── README.md                           # Documentation du projet (ce fichier)
-
 ```
 
+```
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 
 @Component({
