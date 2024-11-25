@@ -41,6 +41,7 @@ cd drawing-app
 ├── angular.json                        # Configuration du projet Angular
 ├── package.json                        # Dépendances et scripts du projet
 └── README.md                           # Documentation du projet (ce fichier)
+
 ```
 
 import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
