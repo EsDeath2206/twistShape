@@ -33,16 +33,16 @@ cd drawing-app
 ├── /src
 │   ├── /app
 │   │   ├── /drawing
-│   │   │   ├── drawing.component.ts    # Logique de dessin et animation
-│   │   │   ├── drawing.component.html   # Template pour le dessin et les contrôles
-│   │   │   └── drawing.component.css    # Styles pour le dessin et les contrôles
-│   │   ├── /app.module.ts               # Module principal de l'application Angular
-│   │   └── /app.component.ts            # Composant racine de l'application
-├── /assets                             # Dossier pour les fichiers statiques
-├── /environments                       # Environnements de configuration (dev, prod)
-├── angular.json                        # Configuration du projet Angular
-├── package.json                        # Dépendances et scripts du projet
-└── README.md                           # Documentation du projet (ce fichier)
+│   │   │   ├── drawing.component.ts    
+│   │   │   ├── drawing.component.html   
+│   │   │   └── drawing.component.css   
+│   │   ├── /app.module.ts                
+│   │   └── /app.component.ts            
+├── /assets                             
+├── /environments                       
+├── angular.json                        
+├── package.json                        
+└── README.md                           
 ```
 
 ```
