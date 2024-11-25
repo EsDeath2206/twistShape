@@ -1,0 +1,36 @@
+/* Conteneur principal qui prend toute la page */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer le contenu verticalement */
+    align-items: center; /* Centrer le contenu horizontalement */
+    height: 100vh; /* Prendre toute la hauteur de la page */
+    background-color: #f0f0f0; /* Vous pouvez changer la couleur de fond */
+    margin: 0;
+  }
+  
+  /* Section des contrôles */
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Espacement entre les éléments de contrôle */
+  .controls label, .controls input, .controls select {
+    margin: 10px 0;
+  }
+  
+  /* Ajustement du canvas pour être centré et visible */
+  canvas {
+    border: 2px solid #000;
+    display: block;
+    margin: 0 auto;
+  }
+  

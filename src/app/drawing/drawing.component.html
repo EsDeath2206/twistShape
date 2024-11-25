@@ -1,0 +1,25 @@
+<div class="controls">
+    <label for="shape">Forme:</label>
+    <select id="shape" [(ngModel)]="shape">
+      <option value="circle">Cercle</option>
+      <option value="square">Carré</option>
+      <option value="line">Ligne</option>
+      <option value="triangle">Triangle</option>
+      <option value="star">Étoile</option>
+      <option value="heart">Cœur</option>
+      <option value="pentagon">Pentagone</option>
+      <option value="hexagon">Hexagone</option>
+      <option value="octagon">Octogone</option>
+      <option value="rectangle">Rectangle</option>
+      <option value="ellipse">Ellipse</option>
+    </select>
+  
+    <label for="color">Couleur:</label>
+    <input type="color" id="color" [(ngModel)]="color"/>
+  
+    <label for="size">Taille:</label>
+    <input type="range" id="size" min="10" max="100" [(ngModel)]="size"/>
+  </div>
+  
+  <canvas #canvas width="800" height="600"></canvas>
+  
